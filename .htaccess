@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteRule ^ingresar$ https://jacnescuata.com/html/login.php
+RewriteRule ^principal$ https://jacnescuata.com/html/inicio.php
+RewriteRule ^exit$ https://jacnescuata.com/php/session_close.php
+RewriteRule ^afiliados/consulta$ https://jacnescuata.com/html/search-afiliados.php
+RewriteRule ^afiliados/agregar$ https://jacnescuata.com/html/add-afiliado.php
+RewriteRule ^db/ninez$ https://jacnescuata.com/html/view-vulnerable.php
+RewriteRule ^afiliados/cexterna$ html/consulta-tercero.php
+RewriteRule ^electoral/resultados$ html/resultado-elecciones.php
+RewriteRule ^electoral/cargar-resultados$ html/guardar_electoral.php
+RewriteRule ^afiliados/generarCertificado$ https://jacnescuata.com/html/certificado-tercero.php
+RewriteRule ^verificar-constancia$ html/consultar-certificado.php
